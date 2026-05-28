@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Elixírius</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    >
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Marcellus&display=swap" 
+        rel="stylesheet"
+    >
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-elixirius">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <img src="img/logo.png" alt="Logo Elixírius" class="logo-navbar">
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarElixirius"
+                aria-controls="navbarElixirius"
+                aria-expanded="false"
+                aria-label="Abrir menu de navegação"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarElixirius">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Sobre</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Produtos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Equipe</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Cabeçalho da página -->
+        <section class="py-5 section-intro">
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-7">
+                        <span class="section-label">Atendimento Elixírius</span>
+                        <h1 class="fw-bold mb-3">Fale com a nossa botica</h1>
+                        <p class="text-muted fs-5">
+                            Solicite informações, consulte disponibilidade ou registre interesse em uma das nossas
+                            Soluções Alquímicas.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="card card-feature border-0 shadow-sm">
+                            <div class="card-body p-4">
+                                <h2 class="h5 fw-bold mb-3">Horário de atendimento</h2>
+
+                                <div class="d-flex gap-3 mb-3">
+                                    <div class="icon-box">
+                                        <i class="bi bi-clock"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="h6 fw-bold mb-1">Segunda a sexta</h3>
+                                        <p class="small text-muted mb-0">
+                                            Das 08h às 18h, com pausa técnica para reorganização de frascos e prioridades.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex gap-3">
+                                    <div class="icon-box">
+                                        <i class="bi bi-envelope"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="h6 fw-bold mb-1">Retorno</h3>
+                                        <p class="small text-muted mb-0">
+                                            Respondemos em até 2 dias úteis, salvo instabilidades no laboratório.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulário e informações -->
+        <section class="py-5 section-products">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Formulário -->
+                    <div class="col-lg-7">
+                        <div class="card border-0 shadow-sm card-feature">
+                            <div class="card-body p-4">
+                                <span class="section-label">Formulário</span>
+                                <h2 class="fw-bold mb-3">Registrar solicitação</h2>
+                                <p class="text-muted">
+                                    Preencha os dados abaixo para que nossa equipe possa avaliar sua solicitação.
+                                </p>
+
+                                <form class="row g-3 needs-validation" novalidate>
+                                    <div class="col-md-6">
+                                        <label for="nome" class="form-label">Nome completo</label>
+                                        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+                                        <div class="invalid-feedback">
+                                            Informe seu nome.
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">E-mail</label>
+                                        <input type="email" class="form-control" id="email" placeholder="nome@email.com" required>
+                                        <div class="invalid-feedback">
+                                            Informe um e-mail válido.
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="telefone" class="form-label">Telefone</label>
+                                        <input type="tel" class="form-control" id="telefone" placeholder="(00) 00000-0000">
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="tipoAtendimento" class="form-label">Tipo de atendimento</label>
+                                        <select class="form-select" id="tipoAtendimento" required>
+                                            <option selected disabled value="">Selecione uma opção</option>
+                                            <option>Compra de Solução Alquímica</option>
+                                            <option>Consulta sobre produto</option>
+                                            <option>Relato de efeito observado</option>
+                                            <option>Parceria institucional</option>
+                                            <option>Outro assunto</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Selecione o tipo de atendimento.
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="produtoInteresse" class="form-label">Produto ou solução de interesse</label>
+                                        <select class="form-select" id="produtoInteresse" required>
+                                            <option selected disabled value="">Selecione uma opção</option>
+                                            <option>Poção de Foco Assíncrono</option>
+                                            <option>Tônico de Reunião Produtiva</option>
+                                            <option>Essência de Código Legado</option>
+                                            <option>Elixírius Black</option>
+                                            <option>Ampulheta de Infusão</option>
+                                            <option>Frascos de Manipulação</option>
+                                            <option>Ervas da Estação</option>
+                                            <option>Grimório de Fórmulas</option>
+                                            <option>Lampião de Bancada</option>
+                                            <option>Ainda não sei</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Escolha uma opção para continuarmos.
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="assunto" class="form-label">Assunto</label>
+                                        <input type="text" class="form-control" id="assunto" placeholder="Ex.: Interesse em compra, dúvida sobre fórmula, orçamento..." required>
+                                        <div class="invalid-feedback">
+                                            Informe o assunto.
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="mensagem" class="form-label">Mensagem</label>
+                                        <textarea class="form-control" id="mensagem" rows="5" placeholder="Descreva sua solicitação com o máximo de detalhes possível." required></textarea>
+                                        <div class="invalid-feedback">
+                                            Escreva uma mensagem.
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="termos" required>
+                                            <label class="form-check-label" for="termos">
+                                                Declaro que li as informações da fórmula e compreendo que algumas situações exigem mais do que uma poção.
+                                            </label>
+                                            <div class="invalid-feedback">
+                                                É necessário confirmar a leitura antes do envio.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 d-grid d-md-flex gap-2">
+                                        <button class="btn btn-elixirius" type="submit">
+                                            Enviar solicitação
+                                        </button>
+
+                                        <button class="btn btn-outline-elixirius" type="reset">
+                                            Limpar formulário
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Informações laterais -->
+                    <div class="col-lg-5">
+                        <div class="card border-0 shadow-sm card-feature mb-4">
+                            <div class="card-body p-4">
+                                <span class="section-label">Localização</span>
+                                <h2 class="h5 fw-bold mb-3">Unidade de manipulação</h2>
+
+                                <ul class="list-unstyled text-muted mb-0">
+                                    <li class="mb-2">
+                                        <i class="bi bi-geo-alt-fill me-2"></i>
+                                        Horta
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-buildings-fill me-2"></i>
+                                        Unidade de Manipulação Elixírius
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-envelope-fill me-2"></i>
+                                        contato@elixirius.com
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-telephone-fill me-2"></i>
+                                        (+1618) 0042-2026
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="card border-0 shadow-sm card-feature">
+                            <div class="card-body p-4">
+                                <span class="section-label">Mapa</span>
+                                <h2 class="h5 fw-bold mb-3">Como nos encontrar</h2>
+
+                                <div class="ratio ratio-4x3 rounded overflow-hidden">
+                                    <iframe
+                                        src="https://www.google.com/maps?q=65.2134738,11.4372405&output=embed"
+                                        width="600"
+                                        height="450"
+                                        style="border:0;"
+                                        allowfullscreen=""
+                                        loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"
+                                        title="Mapa de localização da Elixírius">
+                                    </iframe>
+                                </div>
+
+                                <a
+                                    href="https://maps.app.goo.gl/Z7z2GGyYj82UjCxR7"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="btn btn-outline-elixirius btn-sm mt-3"
+                                >
+                                    Abrir no Google Maps
+                                </a>
+
+                                <p class="small text-muted mt-3 mb-0">
+                                    A localização acima representa nossa área de atendimento. A entrada exata do laboratório
+                                    é informada após confirmação da solicitação.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 section-solutions">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">Antes de enviar</span>
+                    <h2 class="fw-bold mb-3">Já sabe qual solução procura?</h2>
+                    <p class="text-muted mx-auto section-description">
+                        Consulte a ficha técnica das Soluções Alquímicas antes de registrar sua solicitação.
+                        Isso ajuda nossa equipe a entender se o caso pede foco, desempenho, análise ou uma quantidade
+                        incomum de coragem.
+                    </p>
+                    <a href="products.html#alchemy-solutions" class="btn btn-elixirius">
+                        Ver Soluções Alquímicas
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-elixirius pt-5 pb-4">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <img src="img/logo.png" alt="Logo Elixírius" class="logo-footer mb-3">
+                </div>
+
+                <div class="col-md-4 col-lg-2">
+                    <h3 class="h6 footer-title">Navegação</h3>
+                    <ul class="list-unstyled footer-list">
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="about.html">Sobre</a></li>
+                        <li><a href="products.html">Produtos</a></li>
+                        <li><a href="team.html">Equipe</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <h3 class="h6 footer-title">Atendimento</h3>
+                    <ul class="list-unstyled footer-list">
+                        <li>Segunda a sexta</li>
+                        <li>08h às 18h</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <h3 class="h6 footer-title">Redes sociais</h3>
+                    <div class="d-flex gap-3 social-icons">
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="bi bi-github"></i>
+                        </a>
+
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="footer-divider my-4">
+
+            <div class="text-center">
+                <p class="mb-0 footer-small">
+                    © 2026 Elixírius. Todos os direitos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS personalizado -->
+    <script src="js/script.js"></script>
+</body>
+</html>

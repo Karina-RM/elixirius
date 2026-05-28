@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos | Elixírius</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    >
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Marcellus&display=swap" 
+        rel="stylesheet"
+    >
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-elixirius">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <img src="img/logo.png" alt="Logo Elixírius" class="logo-navbar">
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarElixirius"
+                aria-controls="navbarElixirius"
+                aria-expanded="false"
+                aria-label="Abrir menu de navegação"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarElixirius">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Sobre</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="products.html">Produtos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Equipe</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Cabeçalho da página -->
+        <section class="py-5 section-intro">
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-7">
+                        <span class="section-label">Catálogo Elixírius</span>
+                        <h1 class="fw-bold mb-3">Produtos e Soluções Alquímicas</h1>
+                        <p class="text-muted fs-5">
+                            Insumos, equipamentos e fórmulas autorais desenvolvidos para rotinas que exigem método,
+                            clareza e uma boa tolerância a consequências.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="card card-feature border-0 shadow-sm">
+                            <div class="card-body p-4">
+                                <h2 class="h5 fw-bold mb-3">Como funciona</h2>
+                                <p class="text-muted mb-0">
+                                    Os produtos compõem a estrutura da botica. As Soluções Alquímicas são poções
+                                    prontas, formuladas para demandas específicas da vida acadêmica, profissional e
+                                    operacional.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Insumos e Equipamentos -->
+        <section class="py-5 section-products">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="section-label">Insumos e Equipamentos</span>
+                    <h2 class="fw-bold">Itens da botica</h2>
+                    <p class="text-muted mx-auto section-description">
+                        Recursos utilizados no preparo, armazenamento, acompanhamento e registro das fórmulas Elixírius.
+                    </p>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="img/products/infusion-hourglass.png" class="card-img-top" alt="Ampulheta de Infusão">
+                            <div class="card-body">
+                                <span class="badge text-bg-success mb-2">Equipamento</span>
+                                <h3 class="h5 card-title">Ampulheta de Infusão</h3>
+                                <p class="card-text text-muted">
+                                    Instrumento de acompanhamento de tempo para infusões, repousos e processos sensíveis.
+                                </p>
+                                <a href="contact.html" class="btn btn-outline-elixirius btn-sm">Consultar disponibilidade</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="img/products/compounding-bottles.png" class="card-img-top" alt="Frascos de Manipulação">
+                            <div class="card-body">
+                                <span class="badge text-bg-success mb-2">Armazenamento</span>
+                                <h3 class="h5 card-title">Frascos de Manipulação</h3>
+                                <p class="card-text text-muted">
+                                    Recipientes preparados para armazenamento, conservação e identificação de fórmulas.
+                                </p>
+                                <a href="contact.html" class="btn btn-outline-elixirius btn-sm">Consultar disponibilidade</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="img/products/seasonal-herbs.png" class="card-img-top" alt="Ervas da Estação">
+                            <div class="card-body">
+                                <span class="badge text-bg-success mb-2">Ingrediente</span>
+                                <h3 class="h5 card-title">Ervas da Estação</h3>
+                                <p class="card-text text-muted">
+                                    Seleção botânica sazonal utilizada em fórmulas de foco, clareza e recuperação de energia.
+                                </p>
+                                <a href="contact.html" class="btn btn-outline-elixirius btn-sm">Consultar disponibilidade</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="img/products/formula-grimoire.png" class="card-img-top" alt="Grimório de Fórmulas">
+                            <div class="card-body">
+                                <span class="badge text-bg-warning mb-2">Referência</span>
+                                <h3 class="h5 card-title">Grimório de Fórmulas</h3>
+                                <p class="card-text text-muted">
+                                    Registro técnico de fórmulas, ajustes, observações e protocolos de preparo.
+                                </p>
+                                <a href="contact.html" class="btn btn-outline-elixirius btn-sm">Consultar disponibilidade</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="img/products/workbench-lantern.png" class="card-img-top" alt="Lampião de Bancada">
+                            <div class="card-body">
+                                <span class="badge text-bg-success mb-2">Equipamento</span>
+                                <h3 class="h5 card-title">Lampião de Bancada</h3>
+                                <p class="card-text text-muted">
+                                    Apoio de iluminação para preparo, inspeção visual e manipulação em bancada.
+                                </p>
+                                <a href="contact.html" class="btn btn-outline-elixirius btn-sm">Consultar disponibilidade</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 product-card border-0 shadow-sm">
+                            <img src="img/ingredients/elixirius-black/monstro-energy-zero-acucar.png" class="card-img-top" alt="Monstro Energy">
+                            <div class="card-body">
+                                <span class="badge text-bg-success mb-2">Insumo Operacional</span>
+                                <h3 class="h5 card-title">Monstro Energy - Zero</h3>
+                                <p class="card-text text-muted">
+                                    Insumo frequentemente encontrado ao lado de teclados mecânicos, 35 abas abertas e pessoas que juram que “é só ajustar uma coisinha”.
+                                </p>
+                                <a href="contact.html" class="btn btn-outline-elixirius btn-sm">Consultar disponibilidade</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Soluções Alquímicas -->
+        <section id="alchemy-solutions" class="py-5 section-solutions">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="section-label">Soluções Alquímicas</span>
+                    <h2 class="fw-bold">Fórmulas para problemas modernos</h2>
+                    <p class="text-muted mx-auto section-description">
+                        Poções autorais desenvolvidas para demandas acadêmicas, profissionais e operacionais que exigem
+                        atenção, energia, interpretação ou coragem.
+                    </p>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Poção de Foco Assíncrono -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 solution-card border-0 shadow-sm">
+                            <img src="img/solutions/async-focus-potion.png" class="card-img-top" alt="Poção de Foco Assíncrono">
+                            <div class="card-body d-flex flex-column">
+                                <span class="badge badge-solution mb-2 align-self-start">Concentração</span>
+                                <h3 class="h5 card-title">Poção de Foco Assíncrono</h3>
+                                <p class="card-text text-muted">
+                                    Indicada para estudos, produção intelectual e tarefas que exigem atenção prolongada.
+                                </p>
+
+                                <div class="mt-auto d-grid gap-2">
+                                    <button class="btn btn-outline-elixirius btn-sm" data-bs-toggle="modal" data-bs-target="#asyncFocusModal">
+                                        Ver fórmula
+                                    </button>
+                                    <a href="contact.html" class="btn btn-elixirius btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tônico de Reunião Produtiva -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 solution-card border-0 shadow-sm">
+                            <img src="img/solutions/productive-meeting-tonic.png" class="card-img-top" alt="Tônico de Reunião Produtiva">
+                            <div class="card-body d-flex flex-column">
+                                <span class="badge badge-solution mb-2 align-self-start">Desempenho</span>
+                                <h3 class="h5 card-title">Tônico de Reunião Produtiva</h3>
+                                <p class="card-text text-muted">
+                                    Fórmula para alinhamentos objetivos, decisões claras e encontros com chance real de terminar no horário.
+                                </p>
+
+                                <div class="mt-auto d-grid gap-2">
+                                    <button class="btn btn-outline-elixirius btn-sm" data-bs-toggle="modal" data-bs-target="#meetingTonicModal">
+                                        Ver fórmula
+                                    </button>
+                                    <a href="contact.html" class="btn btn-elixirius btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Essência de Código Legado -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 solution-card border-0 shadow-sm">
+                            <img src="img/solutions/legacy-code-essence.png" class="card-img-top" alt="Essência de Código Legado">
+                            <div class="card-body d-flex flex-column">
+                                <span class="badge badge-solution mb-2 align-self-start">Análise</span>
+                                <h3 class="h5 card-title">Essência de Código Legado</h3>
+                                <p class="card-text text-muted">
+                                    Solução para leitura, interpretação e continuidade de estruturas antigas ou complexas.
+                                </p>
+
+                                <div class="mt-auto d-grid gap-2">
+                                    <button class="btn btn-outline-elixirius btn-sm" data-bs-toggle="modal" data-bs-target="#legacyEssenceModal">
+                                        Ver fórmula
+                                    </button>
+                                    <a href="contact.html" class="btn btn-elixirius btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Elixírius Black -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 solution-card border-0 shadow-sm legendary-card">
+                            <img src="img/solutions/elixirius-black.png" class="card-img-top" alt="Elixírius Black">
+                            <div class="card-body d-flex flex-column">
+                                <span class="badge badge-legendary mb-2 align-self-start">Lendária</span>
+                                <h3 class="h5 card-title">Elixírius Black</h3>
+                                <p class="card-text text-muted">
+                                    Fórmula de alta complexidade para situações críticas que exigem clareza e coragem.
+                                </p>
+
+                                <div class="mt-auto d-grid gap-2">
+                                    <button class="btn btn-outline-elixirius btn-sm" data-bs-toggle="modal" data-bs-target="#elixiriusBlackModal">
+                                        Ver fórmula
+                                    </button>
+                                    <a href="contact.html" class="btn btn-elixirius btn-sm">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Accordion / FAQ -->
+        <section class="py-5 section-products">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="section-label">Informações úteis</span>
+                    <h2 class="fw-bold">Dúvidas frequentes</h2>
+                </div>
+
+                <div class="accordion" id="productsAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Os ingredientes das poções são vendidos separadamente?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#productsAccordion">
+                            <div class="accordion-body">
+                                Não. Os ingredientes são apresentados como parte da ficha técnica de cada Solução Alquímica.
+                                A venda é realizada apenas da fórmula final, já manipulada e registrada pela Elixírius.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Como funciona a compra de uma Solução Alquímica?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#productsAccordion">
+                            <div class="accordion-body">
+                                Ao clicar em “Comprar”, o visitante será direcionado para a página de contato, onde poderá registrar
+                                interesse na poção escolhida e informar a necessidade de uso.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                As fórmulas possuem indicação de uso?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#productsAccordion">
+                            <div class="accordion-body">
+                                Sim. Cada poção possui indicação, classificação, ingredientes principais, efeito esperado e advertência.
+                                Nem toda situação exige uma poção. Algumas exigem planejamento. Outras já passaram dessa fase.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Modal: Poção de Foco Assíncrono -->
+    <div class="modal fade" id="asyncFocusModal" tabindex="-1" aria-labelledby="asyncFocusModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div>
+                        <span class="badge badge-solution mb-2">Concentração</span>
+                        <h1 class="modal-title fs-4" id="asyncFocusModalLabel">Poção de Foco Assíncrono</h1>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p class="text-muted">
+                        Indicada para períodos de concentração prolongada, estudos, produção intelectual e tarefas que exigem silêncio externo e interno.
+                    </p>
+
+                    <h2 class="h6 fw-bold mt-4">Ingredientes principais</h2>
+                    <div class="row g-3">
+                        <div class="col-md-4 text-center">
+                            <img src="img/ingredients/async-focus/serene-latency-mushroom.png" class="img-fluid" alt="Cogumelo de Latência Serena">
+                            <h3 class="h6 mt-2">Cogumelo de Latência Serena</h3>
+                            <p class="small text-muted">Reduz impulsos de interrupção e favorece respostas mais estáveis.</p>
+                        </div>
+
+                        <div class="col-md-4 text-center">
+                            <img src="img/ingredients/async-focus/low-noise-lavender.png" class="img-fluid" alt="Lavanda de Baixo Ruído">
+                            <h3 class="h6 mt-2">Lavanda de Baixo Ruído</h3>
+                            <p class="small text-muted">Auxilia na redução de distrações e interferências externas.</p>
+                        </div>
+
+                        <div class="col-md-4 text-center">
+                            <img src="img/ingredients/async-focus/persistent-memory-rosemary.png" class="img-fluid" alt="Alecrim de Memória Persistente">
+                            <h3 class="h6 mt-2">Alecrim de Memória Persistente</h3>
+                            <p class="small text-muted">Mantém a linha de raciocínio ativa durante tarefas prolongadas.</p>
+                        </div>
+                    </div>
+
+                    <h2 class="h6 fw-bold mt-4">Efeito esperado</h2>
+                    <p class="text-muted">
+                        Favorece foco contínuo, redução de interferências e manutenção da linha de pensamento.
+                    </p>
+
+                    <h2 class="h6 fw-bold mt-4">Advertência</h2>
+                    <p class="text-muted mb-0">
+                        Não bloqueia notificações. Apenas melhora sua capacidade de fingir que não viu.
+                    </p>
+                </div>
+
+                <div class="modal-footer">
+                    <a href="contact.html" class="btn btn-elixirius">Comprar poção</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Tônico de Reunião Produtiva -->
+    <div class="modal fade" id="meetingTonicModal" tabindex="-1" aria-labelledby="meetingTonicModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div>
+                        <span class="badge badge-solution mb-2">Desempenho</span>
+                        <h1 class="modal-title fs-4" id="meetingTonicModalLabel">Tônico de Reunião Produtiva</h1>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p class="text-muted">
+                        Fórmula desenvolvida para alinhamentos objetivos, decisões claras e encontros com chance real de terminar no horário.
+                    </p>
+
+                    <h2 class="h6 fw-bold mt-4">Ingredientes principais</h2>
+                    <div class="row g-3">
+                        <div class="col-md-4 text-center">
+                            <img src="img/ingredients/productive-meeting-tonic/agenda-clarity-mushroom.png" class="img-fluid" alt="Cogumelo de Pauta Clara">
+                            <h3 class="h6 mt-2">Cogumelo de Pauta Clara</h3>
+                            <p class="small text-muted">Ajuda a manter o assunto dentro do escopo originalmente combinado.</p>
+                        </div>
+
+                        <div class="col-md-4 text-center">
+                            <img src="img/ingredients/productive-meeting-tonic/blueberry-alignment-slice.png" class="img-fluid" alt="Fatia de Alinhamento">
+                            <h3 class="h6 mt-2">Fatia de Alinhamento</h3>
+                            <p class="small text-muted">Favorece adesão quando o convite menciona coffee break.</p>
+                        </div>
+
+                        <div class="col-md-4 text-center">
+                            <img src="img/ingredients/productive-meeting-tonic/espresso-continuity-infusion.png" class="img-fluid" alt="Infusão de Continuidade">
+                            <h3 class="h6 mt-2">Infusão de Continuidade</h3>
+                            <p class="small text-muted">Mantém a equipe operacional até o encerramento, ou até surgir outro tópico.</p>
+                        </div>
+                    </div>
+
+                    <h2 class="h6 fw-bold mt-4">Efeito esperado</h2>
+                    <p class="text-muted">
+                        Estimula objetividade, síntese e participação suficiente para que a reunião pareça planejada.
+                    </p>
+
+                    <h2 class="h6 fw-bold mt-4">Advertência</h2>
+                    <p class="text-muted mb-0">
+                        Não substitui liderança, planejamento ou objetividade. Mas melhora consideravelmente a percepção geral quando servido com café.
+                    </p>
+                </div>
+
+                <div class="modal-footer">
+                    <a href="contact.html" class="btn btn-elixirius">Comprar poção</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Essência de Código Legado -->
+    <div class="modal fade" id="legacyEssenceModal" tabindex="-1" aria-labelledby="legacyEssenceModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div>
+                        <span class="badge badge-solution mb-2">Análise</span>
+                        <h1 class="modal-title fs-4" id="legacyEssenceModalLabel">Essência de Código Legado</h1>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p class="text-muted">
+                        Indicada para manutenção, interpretação e continuidade de estruturas que seguem funcionando por motivos que já não podem ser explicados com segurança.
+                    </p>
+
+                    <h2 class="h6 fw-bold mt-4">Ingredientes principais</h2>
+                    <div class="row g-3">
+                        <div class="col-md-4 text-center">
+                            <img src="img/ingredients/legacy-code-essence/backward-compatibility-mushroom.png" class="img-fluid" alt="Cogumelo de Compatibilidade Retroativa">
+                            <h3 class="h6 mt-2">Cogumelo de Compatibilidade Retroativa</h3>
+                            <p class="small text-muted">Favorece adaptação a estruturas antigas sem provocar colapsos inesperados.</p>
+                        </div>
+
+                        <div class="col-md-4 text-center">
+                            <img src="img/ingredients/legacy-code-essence/encapsulated-module-cocoon.png" class="img-fluid" alt="Casulo de Módulo Encapsulado">
+                            <h3 class="h6 mt-2">Casulo de Módulo Encapsulado</h3>
+                            <p class="small text-muted">Protege partes sensíveis que ninguém abre sem necessidade real.</p>
+                        </div>
+
+                        <div class="col-md-4 text-center">
+                            <img src="img/ingredients/legacy-code-essence/recursive-patience-daisy.png" class="img-fluid" alt="Margarida de Paciência Recursiva">
+                            <h3 class="h6 mt-2">Margarida de Paciência Recursiva</h3>
+                            <p class="small text-muted">Auxilia na calma durante ciclos longos de análise e revisão.</p>
+                        </div>
+                    </div>
+
+                    <h2 class="h6 fw-bold mt-4">Efeito esperado</h2>
+                    <p class="text-muted">
+                        Melhora leitura estrutural, paciência técnica e capacidade de intervir sem derrubar o que ainda funciona.
+                    </p>
+
+                    <h2 class="h6 fw-bold mt-4">Advertência</h2>
+                    <p class="text-muted mb-0">
+                        Pode gerar compreensão profunda do problema. Em alguns casos, isso é exatamente o problema.
+                    </p>
+                </div>
+
+                <div class="modal-footer">
+                    <a href="contact.html" class="btn btn-elixirius">Comprar poção</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Elixírius Black -->
+    <div class="modal fade" id="elixiriusBlackModal" tabindex="-1" aria-labelledby="elixiriusBlackModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div>
+                        <span class="badge badge-legendary mb-2">Lendária</span>
+                        <h1 class="modal-title fs-4" id="elixiriusBlackModalLabel">Elixírius Black</h1>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p class="text-muted">
+                        Fórmula de alta complexidade, reservada para cenários críticos que exigem clareza, energia e disposição emocional para descobrir o que realmente estava acontecendo.
+                    </p>
+
+                    <h2 class="h6 fw-bold mt-4">Ingredientes principais</h2>
+                    <div class="row g-3">
+                        <div class="col-md-3 text-center">
+                            <img src="img/ingredients/elixirius-black/night-watch-mushroom.png" class="img-fluid" alt="Cogumelo da Vigília Noturna">
+                            <h3 class="h6 mt-2">Cogumelo da Vigília Noturna</h3>
+                            <p class="small text-muted">Sustenta atenção em cenários críticos e favorece alerta prolongado.</p>
+                        </div>
+
+                        <div class="col-md-3 text-center">
+                            <img src="img/ingredients/elixirius-black/spectral-witness.png" class="img-fluid" alt="Testemunha Espectral">
+                            <h3 class="h6 mt-2">Testemunha Espectral</h3>
+                            <p class="small text-muted">Revela o que estava oculto, mal documentado ou ignorado.</p>
+                        </div>
+
+                        <div class="col-md-3 text-center">
+                            <img src="img/ingredients/elixirius-black/omen-nest.png" class="img-fluid" alt="Ninho de Presságio">
+                            <h3 class="h6 mt-2">Ninho de Presságio</h3>
+                            <p class="small text-muted">Favorece leitura de risco e percepção antecipada de impacto.</p>
+                        </div>
+
+                        <div class="col-md-3 text-center">
+                            <img src="img/ingredients/elixirius-black/monstro-energy-zero-acucar.png" class="img-fluid" alt="Monstro Energy - Zero açúcar">
+                            <h3 class="h6 mt-2">Monstro Energy</h3>
+                            <p class="small text-muted">Mantém prontidão quando descansar deixou de ser uma opção realista.</p>
+                        </div>
+                    </div>
+
+                    <h2 class="h6 fw-bold mt-4">Efeito esperado</h2>
+                    <p class="text-muted">
+                        Amplia clareza, energia e tolerância à verdade em situações de alta pressão.
+                    </p>
+
+                    <h2 class="h6 fw-bold mt-4">Advertência</h2>
+                    <p class="text-muted mb-0">
+                        Pode revelar falhas antigas, decisões apressadas e verdades que estavam funcionando melhor enquanto permaneciam ocultas.
+                    </p>
+                </div>
+
+                <div class="modal-footer">
+                    <a href="contact.html" class="btn btn-elixirius">Comprar poção</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-elixirius pt-5 pb-4">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <img src="img/logo.png" alt="Logo Elixírius" class="logo-footer mb-3">
+                </div>
+
+                <div class="col-md-4 col-lg-2">
+                    <h3 class="h6 footer-title">Navegação</h3>
+                    <ul class="list-unstyled footer-list">
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="about.html">Sobre</a></li>
+                        <li><a href="products.html">Produtos</a></li>
+                        <li><a href="team.html">Equipe</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <h3 class="h6 footer-title">Atendimento</h3>
+                    <ul class="list-unstyled footer-list">
+                        <li>Segunda a sexta</li>
+                        <li>08h às 18h</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-lg-3">
+                    <h3 class="h6 footer-title">Redes sociais</h3>
+                    <div class="d-flex gap-3 social-icons">
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="bi bi-github"></i>
+                        </a>
+
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="footer-divider my-4">
+
+            <div class="text-center">
+                <p class="mb-0 footer-small">
+                    © 2026 Elixírius. Todos os direitos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS personalizado -->
+    <script src="js/script.js"></script>
+</body>
+</html>
